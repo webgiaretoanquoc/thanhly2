@@ -1,0 +1,165 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.13.1
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.header-bottom-nav > li > a {font-weight: normal;}.about-us .icon-user:before {color: #89bf41;} .danh-gia2 .icon-box-page{border: 1px dashed #6eb7ea;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #f5fbff;
+}.footer-section{background: url(../../uploads/2020/05/background-footer.jpg);}img.size-full.alignnone {margin-bottom: 0em;}.quy-trinh-section .icon-box .icon-box-text {
+	color: white;
+	font-size: 15px;
+}.quy-trinh-section .icon-box h3 {
+	background: #7cb522;
+	border-radius: 20px;
+	color: #f2f2f2;
+	padding: 7px 10px;
+	font-size: 17px;
+	box-shadow: 2px 2px 20px #0000004f;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.dia-chi-section .col, .gioi-thieu-section .col,.thu-mua-section .col,.hoat-dong-section .col{padding-bottom:0}.flickity-page-dots .dot{border-color:#89bf41 !important;width: 7px;height: 7px;}.flickity-page-dots .dot.is-selected{border-color:#1472b0 !important}
+.gioi-thieu-section img{border-radius:10px}
+.dia-chi-section .flickity-button .flickity-button-icon{background: #00000059;border-radius: 5px;}.dia-chi-section .flickity-slider img{border-radius:10px}.dia-chi-section .large-4 .col-inner{background: #f9ffee;border: 1px dashed #67ca10;border-radius: 10px;padding: 10px;}
+.dia-chi-section .large-4 h3{margin-bottom:2px;color:#1a78b6}
+.dia-chi-section h4{font-weight:normal;color:#56b127}
+.dia-chi-section .large-4 ul{margin-bottom:10px !important; }
+.dia-chi-section ul:last-child li{border-bottom:none !important}
+.dia-chi-section .nut-xem-them{margin-bottom:13px !important}
+.dia-chi-section .large-4 ul li{background-image: url(../../uploads/2020/05/icon-check.png);color:#444444;background-repeat: no-repeat;background-size: 22px;background-position-y: 2px;list-style: none;padding-left: 25px;margin-left: 0;font-size: 17px;margin-bottom: 3px;border-bottom: 1px dashed #cacaca;padding-bottom: 5px;}
+.nut-xem-them{letter-spacing: 0px;font-weight:normal; margin: 0;}
+.thu-mua-section .col-inner .box:hover h4{color:#1274b8;}
+.dia-chi-section .large-4 .col-inner .col-inner{border:none; background:none; padding:0}
+.thu-mua-section .box .box-text{background: white;
+	color: black;
+	padding: 10px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;}
+.thu-mua-section .box h3{    text-align: center;
+	color: #1678be;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 16px;}.thu-mua-section .box{margin-bottom:20px}
+.thu-mua-section .box:hover{box-shadow: 2px 2px 20px #00000042;}
+.thu-mua-section .box .box-image{border-top-left-radius:6px; border-top-right-radius:6px}
+.thu-mua-section .box-image:hover::before{
+	-webkit-animation:shine .75s;
+	animation:shine .75s}
+@-webkit-keyframes shine{
+	100%{left:125%}
+}
+@keyframes shine{
+	100%{left:125%}
+}
+.thu-mua-section .box-image::before{
+	position:absolute;
+	top:0;
+	left:-75%;
+	z-index:2;
+	display:block;
+	content:'';
+	width:50%;
+	height:100%;
+	background:-webkit-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+	background:linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%);
+	-webkit-transform:skewX(-25deg);transform:skewX(-25deg)
+}.quy-trinh-section h2 {
+	color: #167cc4;
+}.quy-trinh-section .col {
+	padding-bottom: 0;
+}.quy-trinh-section .icon-box {
+	padding: 30px;
+	border-radius: 10px;
+	background: url(../../uploads/2020/05/bg1.jpg);
+	min-height: 355px;
+}
+.hoat-dong-section ul li{background-image: url(../../uploads/2020/05/icon-check.png);color:white;background-repeat: no-repeat;background-size: 22px;background-position-y: 2px;list-style: none;padding-left: 25px;margin-left: 0;font-size: 17px;margin-bottom: 3px;border-bottom: 1px dashed #328ac7;padding-bottom: 5px;}.hoat-dong-section ul{margin-bottom:0}
+.hoat-dong-section img{border-radius:8px}
+.danh-gia-section img{border-radius:7px}
+.danh-gia2 .col{padding-bottom:0}
+.danh-gia2 .icon-box h3{text-transform: uppercase;
+	font-weight: normal;
+	color: #7cb522;margin-bottom: 3px;}.danh-gia2 .icon-box .icon-box-text{font-size:15px}
+.danh-gia-section h2{color: #1073b9;}
+.danh-gia2 .flickity-button svg{background: white;
+	border-radius: 99%;
+	box-shadow: 2px 2px 6px #80808070;padding: 30%;}.danh-gia2 .flickity-button{top:33%}
+.form-lien-he .row-info{display: inline-block;
+	clear: both;
+	width: 100%;}
+.form-lien-he .row-info .left{width: 50%;
+	padding-right: 7px;
+	float: left;
+	display: inline-block;}
+.form-lien-he .row-info .right{width: 50%;
+	padding-left: 7px;
+	float: left;
+	display: inline-block;}
+.form-lien-he input{font-size: 15px;
+	border-radius: 4px;
+	box-shadow: none;}
+.form-lien-he input[type='submit']{margin:0; font-weight:normal}
+.lien-he-section h2{font-weight: normal;
+	text-transform: uppercase;}
+form{margin-bottom:0}
+.lien-he-section .col{padding-bottom:0}
+.lien-he-section img{border-radius:7px}
+.loi-keu-goi-section .icon-box-img{
+	margin: 0 auto 3px;}
+.loi-keu-goi-section .col{padding-bottom:0}
+.loi-keu-goi-section p{margin-bottom:0}
+a.back-to-top{background:#7cb522 !important; color:white; border:none !important}
+.hinh-anh-section .img-inner{border-radius:7px}
+.footer-section ul li{list-style: square;
+	color: #7cb522;}
+.footer-section h3{text-transform: uppercase;
+	font-weight: normal;
+	color: #086db2 !important;}.nav-spacing-large>li {
+		margin: 0 17px;
+}
+
+.loi-keu-goi-section .icon-box img{
+	padding-top:0}
+.footer-section .col{padding-bottom:0
+}.footer-secondary {
+	padding: 0;
+}
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+	.icon-menu:before, .icon-search:before  {
+		color: #1476bb;
+	}
+	.off-canvas-left.mfp-ready .mfp-content{background:#1476bb}.off-canvas:not(.off-canvas-center) .nav-vertical li>a {
+		padding-left: 20px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		font-size: 16px;
+		color: white;
+		font-weight: normal;
+	}
+	.nav-sidebar.nav-vertical>li+li {
+		border-top: 1px solid #2087d0;
+		border-bottom: 2px solid #166dab;
+	}
+	.dia-chi-section .col, .gioi-thieu-section .col, .thu-mua-section .col, .hoat-dong-section .col{padding-bottom:10px}.dia-chi-section .large-4 h3 {
+		font-size: 21px;
+	}.dia-chi-section .nut-xem-them{margin-bottom:0 !important}
+	.thu-mua-section .col.large-3, .hinh-anh-section .col.large-4{flex-basis:50%; max-width:50%; padding:0 5px 10px}.thu-mua-section .box {
+		margin-bottom: 0;
+	}.quy-trinh-section .col,.lien-he-section .col {
+		padding-bottom: 15px;
+	}.form-lien-he .row-info .right, .form-lien-he .row-info .left{width:100%; padding:0}.form-lien-he input[type='submit'] {
+		width: 100%;}
+	.loi-keu-goi-section .col.large-4{flex-basis:33.33%; max-width:33.33%; padding: 0; padding-top:10px}
+	body,html{width:100%; overflow-x:hidden}
+
+}
